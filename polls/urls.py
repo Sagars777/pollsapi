@@ -5,7 +5,7 @@ from rest_framework.routers import DefaultRouter
 from rest_framework.authtoken import views
 
 router  =   DefaultRouter()
-router.register('polls', PollViewSet, basename='polls')
+router.register('polls', PollViewSet, 'polls')
 
 
 urlpatterns = [
